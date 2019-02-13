@@ -88,7 +88,7 @@
     background-size:cover
 }
 .masthead h1{
-    font-family:'Varela Round';
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:2.5rem;
     line-height:2.5rem;
     letter-spacing:.8rem;
@@ -203,7 +203,7 @@
 }
 .contact-section .card{
     border:0;
-    border-bottom:.25rem solid #64a19d
+    border-bottom:.25rem solid gray;
 }
 .contact-section .card h4{
     font-size:.8rem;
@@ -212,7 +212,7 @@
     letter-spacing:.15rem
 }
 .contact-section .card hr{
-    border-color:#64a19d;
+    border-color:gray;
     border-width:.25rem;
     width:3rem
 }
@@ -232,18 +232,18 @@
     color:rgba(255,255,255,.5)
 }
 .contact-section .social a:active{
-    color:#fff
+    color:gray;
 }
 body{
     font-family:Nunito;
     letter-spacing:.0625em
 }
 a{
-    color:#64a19d
+    color: gray;
 }
 a:focus,a:hover{
     text-decoration:none;
-    color:#3c6360
+    color:gray;
 }
 .bg-black{
     background-color:#161616!important
