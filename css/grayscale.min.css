@@ -125,7 +125,7 @@
     -webkit-box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
     box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
     padding:1.25rem 2rem;
-    font-family:'Varela Round';
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:80%;
     text-transform:uppercase;
     letter-spacing:.15rem;
@@ -147,13 +147,15 @@
 .about-section{
     padding-top:10rem;
     background:-webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8)));
-    background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
+    background:linear-gradient(to top,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
 }
 .about-section p{
     margin-bottom:5rem
 }
 .projects-section{
-    padding:10rem 0
+    padding:0rem 0;
+    background:-webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8)));
+    background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
 }
 .projects-section .featured-text{
     padding:2rem
@@ -199,7 +201,9 @@
     border:0
 }
 .contact-section{
-    padding:5rem 0 0
+    padding:5rem 0 0;
+    background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.8)),color-stop(75%,rgba(22,22,22,.9)),to(#161616));
+    background:linear-gradient(to top,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
 }
 .contact-section .card{
     border:0;
