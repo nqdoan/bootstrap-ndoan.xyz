@@ -215,21 +215,24 @@
 }
 .contact-section .card{
     border:0;
-    border-bottom:.25rem solid gray;
+    background-color: rgba(22,22,22,.1);
 }
 .contact-section .card h4{
     font-size:.8rem;
     font-family:'Varela Round';
+    color: white;
     text-transform:uppercase;
     letter-spacing:.15rem
 }
 .contact-section .card hr{
-    border-color:gray;
+    border-color:white;
     border-width:.25rem;
+    color: white;
     width:3rem
 }
 .contact-section .social{
-    margin-top:5rem
+    margin-top:5rem;
+    color: white;
 }
 .contact-section .social a{
     text-align:center;
@@ -238,13 +241,13 @@
     background:rgba(255,255,255,.1);
     border-radius:100%;
     line-height:3rem;
-    color:rgba(255,255,255,.3)
+    color:white;
 }
 .contact-section .social a:hover{
-    color:rgba(255,255,255,.5)
+    color:white
 }
 .contact-section .social a:active{
-    color:gray;
+    color:white;
 }
 body{
     font-family:Nunito;
